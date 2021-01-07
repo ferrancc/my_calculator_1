@@ -1,0 +1,93 @@
+************************************
+PROCESO GITBASH PARA my_calculator_1
+************************************
+20210107_1858 => Inicio
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~
+$ cd documents/GIT-GITHUB/Repositorios
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios
+$ git init my_calculator_1
+Initialized empty Git repository in C:/Users/Fernando/Documents/GIT-GITHUB/Repositorios/my_calculator_1/.git/
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios
+$ cd my_calculator_1
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios/my_calculator_1 (main)
+$ git remote add origin https://github.com/ferrancc/my_calculator_1.git
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios/my_calculator_1 (main)
+$ git add index.html
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios/my_calculator_1 (main)
+$ git commit -m "x^3 button" # Congelar los cambios de un commit
+[main (root-commit) cc1d244] x^3 button
+ 1 file changed, 23 insertions(+)
+ create mode 100644 index.html
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios/my_calculator_1 (main)
+$ git log --oneline # Ver lista de commits
+cc1d244 (HEAD -> main) x^3 button
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios/my_calculator_1 (main)
+$ git add index.html
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios/my_calculator_1 (main)
+$ git commit -m "x^4 button"
+[main bb7a9dc] x^4 button
+ 1 file changed, 5 insertions(+)
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios/my_calculator_1 (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 721 bytes | 45.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/ferrancc/my_calculator_1.git
+ * [new branch]      main -> main
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/documents/GIT-GITHUB/Repositorios/my_calculator_1 (main)
+$ cd
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~
+$ cd MOOC_git_mod3-commit_entrega
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/MOOC_git_mod3-commit_entrega (main)
+$
+
+Fernando@LAPTOP-3E4OK6QQ MINGW64 ~/MOOC_git_mod3-commit_entrega (main)
+$ moocauto
+
+
+
+OS detectado: Windows
+Si estás corrigiendo tu práctica pulsa 'M'. Si estás corrigiendo la de un compañero pulsa 'O'
+M
+Al hacer uso de esta herramienta se recogerán datos anónimos para uso exclusivo de investigación. Si desea continuar pulse 'Y'. En caso contrario, pulse 'N'
+Y
+Commit
+
+Test: (Prechecks) Comprobando
+        Observaciones: Se ha encontrado el fichero 'git_account': ferrancc
+
+Test: (Prechecks) Buscando la rama main
+        Observaciones: Se ha encontrado la rama main git://github.com/ferrancc/my_calculator.git
+
+Test: Buscando commits en la rama main
+        Observaciones: Se ha encontrado el primer commit en la rama main c6ccf0c
+
+Test: Buscando el fichero index.html en el primer commit
+        Observaciones:El fichero 'index.html' no se encuentra en el primer commit de la rama main c6ccf0c
+
+Test: Buscando el fichero index.html en el segundo commit
+        Observaciones: Se ha encontrado el fichero 'index.html'  en el primer commit del la rama main 2e2394a
+
+Test: Buscando x^4 en los commits de la rama main
+        Observaciones:No se ha encontrado'x^4' en la rama main 2e2394a
+
+Sigue intentándolo ¡Todavía puedes mejorar!
+
+20210107_1936 => Final
